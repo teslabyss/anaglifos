@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Anaglifos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .navbar {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar li {
+            margin-right: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #f4f4f9;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: #00bcd4;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #00bcd4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .image-group {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .image-group img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: #f4f4f9;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#anaglifos">Anaglifos</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h1>Galería de Imágenes en Anaglifos</h1>
+        <div class="gallery">
+            <div class="image-group">
+                <h3>Imagen Normal</h3>
+                <img src="images/YoIzqueirda.jpg" alt="Imagen Normal">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Estereoscópica</h3>
+                <img src="images/YoEstereo.png" alt="Imagen Estereoscópica">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Izquierda</h3>
+                <img src="images/YoIzqueirda.jpg" alt="Imagen Izquierda">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Derecha</h3>
+                <img src="images/YoDerecha.jpg" alt="Imagen Derecha">
+            </div>
+            <div class="image-group">
+                <h3>Punto Focal Cercano</h3>
+                <img src="images/AnaglifoCercanoRoy.JPG" alt="Imagen Punto Focal 1">
+            </div>
+            <div class="image-group">
+                <h3>Punto Focal Mediano</h3>
+                <img src="images/AnaglifoMedioRoy.JPG" alt="Imagen Punto Focal 2">
+            </div>
+            <div class="image-group">
+                <h3>Punto Lejano</h3>
+                <img src="images/AnaglifoLejanoRoy.JPG" alt="Imagen Punto Focal 3">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="gallery">
+            <div class="image-group">
+                <h3>Imagen Normal</h3>
+                <img src="images/BibliotecaIzquierda" alt="Imagen Normal">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Estereoscópica</h3>
+                <img src="images/biblioteca.png" alt="Imagen Estereoscópica">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Izquierda</h3>
+                <img src="images/BibliotecaIzquierda" alt="Imagen Izquierda">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Derecha</h3>
+                <img src="images/BibliotecaDerecha.jpeg" alt="Imagen Derecha">
+            </div>
+            <div class="image-group">
+                <h3>Punto Focal Cercano</h3>
+                <img src="images/BibliotecaCercano.JPG" alt="Imagen Punto Focal 1">
+            </div>
+            <div class="image-group">
+                <h3>Punto Focal Mediano</h3>
+                <img src="images/BibliotecaMediano.JPG" alt="Imagen Punto Focal 2">
+            </div>
+            <div class="image-group">
+                <h3>Punto Lejano</h3>
+                <img src="images/BibliotecaLejana.JPG" alt="Imagen Punto Focal 3">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="gallery">
+            <div class="image-group">
+                <h3>Imagen Normal</h3>
+                <img src="images/CentroComputoIzquierdo.jpeg" alt="Imagen Normal">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Estereoscópica</h3>
+                <img src="images/computo.png" alt="Imagen Estereoscópica">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Izquierda</h3>
+                <img src="images/CentroComputoIzquierdo.jpeg" alt="Imagen Izquierda">
+            </div>
+            <div class="image-group">
+                <h3>Imagen Derecha</h3>
+                <img src="images/CentroComputoDerecho.jpeg" alt="Imagen Derecha">
+            </div>
+            <div class="image-group">
+                <h3>Punto Focal Cercano</h3>
+                <img src="images/CentroComputoCercano.JPG" alt="Imagen Punto Focal 1">
+            </div>
+            <div class="image-group">
+                <h3>Punto Focal Mediano</h3>
+                <img src="images/CentroComputoMedio.JPG" alt="Imagen Punto Focal 2">
+            </div>
+            <div class="image-group">
+                <h3>Punto Lejano</h3>
+                <img src="images/CentroComputoLejano.JPG" alt="Imagen Punto Focal 3">
+            </div>
+        </div>
+
+    </section>
+<hr>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Moctezuma Rodrigo, estudiante de ITIC's con una pasión por la ciberseguridad, el mundo de Linux y la seguridad de la información. Me motiva un deseo constante de aprender más y profundizar mis conocimientos en estas áreas. Siempre busco nuevos retos y oportunidades para expandir mi experiencia y contribuir al campo de la tecnología de manera significativa.</p>
+    </section>
+<hr>    
+    <section id="anaglifos">
+        <h2>¿Qué son los Anaglifos?</h2>
+        <p>Los anaglifos son imágenes compuestas de dos superposiciones de una escena, una de color rojo y la otra de color azul o cian, que permiten la percepción de imágenes en 3D cuando se ven a través de lentes con filtros de esos colores. Esta técnica, conocida como estereoscopía, engaña al cerebro para que perciba profundidad y relieve.</p>
+        <p>La teoría detrás de los anaglifos se basa en la visión binocular, que es la forma en que nuestros ojos captan ligeramente diferentes imágenes desde diferentes ángulos. Cuando estas imágenes se combinan en el cerebro, se crea una percepción de tridimensionalidad.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moctezuma Rodrigo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
